@@ -8,7 +8,7 @@ How to use it:
 4. Upload
 5. You should see the following on the serial monitor (XsensTime,eular angels, and the angular velocity). All on Degrees or Degrees/s.
 
-Note: In order to read other measurements provided by Xsens (e.g Acceleration), you have to add them manully on  XsensUart.cpp like what I did in XsensUart::parseData(). 
+Note: In order to read other measurements provided by Xsens (e.g Acceleration), you have to add them manually on XsensUart.cpp like what I did in XsensUart::parseData(). 
 
 For more information visit https://www.xsens.com/ and https://base.xsens.com/hc/en-us/community/topics.
 
