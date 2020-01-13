@@ -1,5 +1,5 @@
 # XsensUart
-This library allows you to communicate with XSens module using UART.
+This library allows you to communicate with Xsens MTi 1-series DK module using UART.
 
 How to use it:
 1. Place this folder in your Arduino library folder
