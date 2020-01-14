@@ -47,7 +47,7 @@ void XsensUart::parseData(){
 	     }
       Serial.println("->");
  */	
-  // SampleTime = 0x1070;
+  // SampleTimeFine = 0x1060;
   if (receivedBytes[4] == 0x10 & receivedBytes[5] == 0x60) {
     for (int i = 0; i < 4 ; i++) {
       datadt[i]= receivedBytes[7+i];
